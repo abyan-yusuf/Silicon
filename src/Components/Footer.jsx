@@ -5,20 +5,20 @@ import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <div className="bg-[#0077b6] px-5 py-10 flex">
-      <div className="basis-1/2 h-[500px] flex justify-center relative">
-        <div className="rounded-full h-[400px] w-[400px] bg-[#90e0ef] absolute animate-real-pulse"></div>
-        <a className="btn btn-ghost text-xl h-20 hover:bg-transparent p-0 ml-auto mr-auto w-96 absolute top-32">
-          <img src="/Asset 2-100.png" className="h-full" />
-          <h2 className="font-[forum] text-[#03045E]">SILICON OVERSEAS LTD.</h2>
+      <div className="basis-1/2 h-[4  00px] flex justify-center relative">
+        <div className="rounded-full h-[300px] w-[300px] bg-[#90e0ef] absolute animate-real-pulse z-10"></div>
+        <a className="btn btn-ghost text-xl h-30 hover:bg-transparent p-0 ml-auto mr-auto w-96 absolute top-20 z-20">
+          <img src="/Asset 2-100.png" className="h-4/6" />
+          <h2 className="font-[forum] text-[#03045E] z-20">SILICON OVERSEAS LTD.</h2>
         </a>
-        <p className="text-[#0077b6] z-20 w-[360px] top-52 absolute text-right right-52 text-lg">
+        <p className="text-[#0077b6] z-20 w-[360px] top-32 absolute text-right right-[12.5rem] text-lg">
           {" "}
           Bringing Skills From <br /> Bangladesh To Global Markets For <br />{" "}
           More Than A Decade
         </p>
         <img
           src="/tower3.png"
-          className="absolute h-4/6 -rotate-[20deg] bottom-20 left-20 animate-bounce"
+          className="absolute h-4/6 -rotate-[20deg] bottom-20 left-24 z-0 animate-bounce"
         />
         <div className="flex justify-center">
           <NavLink
