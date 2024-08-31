@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const Read = () => {
+  useEffect(() => {
+    window.scrollTo({top: 0})
+  } , [])
   return (
     <div className="font-[lato]">
       <Navbar />

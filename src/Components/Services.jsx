@@ -8,7 +8,7 @@ const Services = () => {
     AOS.init({ duration: 500 });
   }, []);
   return (
-    <div className="px-24 py-16 font-[lato]" id="services">
+    <div className="px-24 py-10 my-6 font-[lato]" id="services">
       <h1 className="text-center text-3xl mb-10 text-[#03045e]">
         OUR SERVICES
       </h1>

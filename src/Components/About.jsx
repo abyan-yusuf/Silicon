@@ -14,7 +14,7 @@ const About = () => {
     config: {duration: 800}
   })
   return (
-    <div className="mx-20 my-40 " id="about">
+    <div className="mx-20 my-28 py-11" id="about">
       <div className="flex justify-between">
         <div className="basis-[48%] flex justify-between">
           <div className="basis-[47%] flex flex-col items-center space-y-10">

@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 h-28 px-5">
+    <div className="navbar bg-base-100 h-20 px-5">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,15 +43,17 @@ const Navbar = () => {
           </ul>
         </div>
         <a className="btn btn-ghost text-xl h-20 hover:bg-transparent p-0">
-          <img src="/Asset 2-100.png" className="h-full" />
-          <h2 className="font-[forum] text-[#03045E]">SILICON OVERSEAS LTD.</h2>
+          <img src="/Asset 2-100.png" className="h-10" />
+          <h2 className="font-[lato] text-2xl font-semibold text-[#03045E]">
+            SILICON OVERSEAS LTD.
+          </h2>
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 space-x-3">
+        <ul className="menu menu-horizontal px-1 space-x-3 font-bold">
           <li>
             <Link
-              className="font-[lato] hover:bg-transparent hover:text-[#90E0EF] transition-colors duration-200 text-[#03045E] text-[15px]"
+              className="font-[lato] hover:bg-transparent hover:underline underline-offset-4 transition-[text-decoration-line] duration-1000 text-[#03045E] no-underline text-[15px] decoration-[3px] "
               to="/"
               duration={2000}
             >
@@ -60,7 +62,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              className="font-[lato] hover:bg-transparent hover:text-[#90E0EF] transition-colors duration-200 text-[#03045E] text-[15px]"
+              className="font-[lato] hover:bg-transparent hover:text-[#F27521] hover:underline underline-offset-4 transition-colors duration-200 text-[#03045E] text-[15px]"
               to="about"
               duration={2000}
             >
@@ -69,7 +71,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              className="font-[lato] hover:bg-transparent hover:text-[#90E0EF] transition-colors duration-200 text-[#03045E] text-[15px]"
+              className="font-[lato] hover:bg-transparent hover:text-[#F27521] hover:underline underline-offset-4 transition-colors duration-200 text-[#03045E] text-[15px]"
               to="services"
               duration={2000}
             >
@@ -77,17 +79,17 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <a className="font-[lato] hover:bg-transparent hover:text-[#90E0EF] transition-colors duration-200 text-[#03045E] text-[15px]">
+            <a className="font-[lato] hover:bg-transparent hover:text-[#F27521] hover:underline underline-offset-4 transition-colors duration-200 text-[#03045E] text-[15px]">
               OUR CLIENTS
             </a>
           </li>
           <li>
-            <a className="font-[lato] hover:bg-transparent hover:text-[#90E0EF] transition-colors duration-200 text-[#03045E] text-[15px]">
+            <a className="font-[lato] hover:bg-transparent hover:text-[#F27521] hover:underline underline-offset-4 transition-colors duration-200 text-[#03045E] text-[15px]">
               GALLERY
             </a>
           </li>
           <li>
-            <a className="font-[lato] hover:bg-transparent hover:text-[#90E0EF] transition-colors duration-200 text-[#03045E] text-[15px]">
+            <a className="font-[lato] hover:bg-transparent hover:text-[#F27521] hover:underline underline-offset-4 transition-colors duration-200 text-[#03045E] text-[15px]">
               GET IN TOUCH
             </a>
           </li>
