@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Read = () => {
   return (
@@ -470,6 +471,7 @@ const Read = () => {
           <img src="/document-2282150_1280.png" className="w-64" />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
