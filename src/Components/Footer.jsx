@@ -1,10 +1,8 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
-import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="bg-[#0077b6] px-5 py-10 flex">
+    <div className="bg-[#0077b6] px-5 py-10 flex mt-10">
       <div className="basis-1/2 h-[4  00px] flex justify-center relative">
         <div className="rounded-full h-[300px] w-[300px] bg-[#90e0ef] absolute animate-real-pulse z-10"></div>
         <a className="btn btn-ghost text-xl h-30 hover:bg-transparent p-0 ml-auto mr-auto w-96 absolute top-20 z-20">

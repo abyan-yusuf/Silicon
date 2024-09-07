@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
@@ -7,6 +6,7 @@ import Services from "./Components/Services";
 import { Route, Routes } from "react-router-dom";
 import Read from "./Components/Read";
 import Footer from "./Components/Footer";
+import Clients from "./Components/Clients";
 
 const App = () => {
   return (
@@ -20,6 +20,7 @@ const App = () => {
             <About />
             <Countries />
             <Services />
+            <Clients />
             <Footer />
           </div>
         }

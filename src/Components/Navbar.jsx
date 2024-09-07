@@ -101,7 +101,7 @@ const Navbar = () => {
               className="font-[lato] hover:bg-transparent hover:underline underline-offset-4 transition-[text-decoration-line] duration-1000 text-[#03045E] no-underline text-[15px] decoration-[3px] "
               to="/"
               duration={2000}
-            >
+            > 
               GET IN TOUCH
             </a>
           </li>
