@@ -331,7 +331,7 @@ const Read = () => {
               </li>
             </ul>
             <div className="basis-1/2 flex justify-center relative">
-              <div className="h-96 w-52 rounded-2xl bg-[url('Read_more_8.jpg')] bg-cover"></div>
+              <div className="h-96 w-52 rounded-2xl bg-[url('Read more 8.jpg')] bg-cover"></div>
 
               <div className="h-96 w-52 border-2 rounded-2xl border-[#0077b6] absolute right-60 mt-8"></div>
             </div>
