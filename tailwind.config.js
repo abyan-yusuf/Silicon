@@ -47,6 +47,14 @@ export default {
             "animation-timing-function": "cubic-bezier(0, 0, 0.2, 1)",
           },
         },
+        gorgeous: {
+          from: {
+            opacity:0
+          },
+          to: {
+            opacity:"100%"
+          }
+        },
         bounce2: {
           "0%, 100%": {
             transform: "translateY(-6%)",
@@ -66,6 +74,7 @@ export default {
         "real-pulse": "real-pulse 4s ease-in-out infinite",
         nonenon2: "nonenon 0.15s linear",
         nonenon3: "nonenon2 0.15s linear",
+        gorgeous: "gorgeous 0.5s ease-in-out 1"
       },
     },
   },

@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="bg-[#0077B6] min-h-[100vh] rounded-[50px] flex p-14 pb-0 mb-20 mx-5">
+    <div className="bg-[#0077B6] min-h-[100vh] rounded-[50px] flex p-14 pb-0 mb-20 mx-5" id="home">
       <div className="basis-[44%] pr-[1%] relative">
         <img
           src="/Asset_4-100-removebg-preview.png"
@@ -29,7 +29,6 @@ const Home = () => {
             GET STARTED
           </a>
         </div>
-        {/* <img src="/tower3.png" className="animate-bounce2  absolute top-[160px] h-80 right-5" /> */}
       </div>
     </div>
   );

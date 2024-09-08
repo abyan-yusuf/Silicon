@@ -14,10 +14,10 @@ const About = () => {
     config: {duration: 800}
   })
   return (
-    <div className="mx-20 my-28 py-11" id="about">
+    <div className="mx-20 py-28" id="about">
       <div className="flex justify-between">
         <div className="basis-[48%] flex justify-between">
-          <div className="basis-[47%] flex flex-col items-center space-y-10">
+          <div className="basis-[47%] flex flex-col items-center space-y-5">
             <img
               src="/passport.jpg"
               className="border-8 border-[#90E0EF] rounded-2xl"
@@ -56,7 +56,7 @@ const About = () => {
             in Bangladesh and have already deployed over 6000 skilled,
             semi-skilled and unskilled workers including high ranking personal
             in different parts of the world. The objective of Silicon
-            International Ltd is to introduce the latest techniques to provide
+            Overseas Ltd is to introduce the latest techniques to provide
             efficient and correct labors on construction, cleaning, and
             municipality side. Our main aim is to create overseas job for young
             man of allover the country by export manpower and earn foreign

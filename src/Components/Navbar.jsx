@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [navbar, setNavbar] = useState(false)
+  const changeNavbar = () => {
+    if (scrollY >= 300) {
+      setNavbar(true)
+    } else {
+      setNavbar(false)
+    }
+  }
+  addEventListener("scroll", changeNavbar)
   return (
-    <div className="navbar bg-base-100 h-20 px-5">
+    <div
+      className={
+        navbar
+          ? "navbar bg-base-100 h-20 px-5 fixed top-0 z-50 animate-gorgeous shadow-lg"
+          : "navbar bg-base-100 h-20 px-5"
+      }
+    >
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -53,57 +68,82 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1 space-x-3 font-bold">
           <li>
             <Link
-              className="font-[lato] hover:bg-transparent hover:underline underline-offset-4 transition-[text-decoration-line] duration-1000 text-[#03045E] no-underline text-[15px] decoration-[3px] "
+              className="font-[lato] hover:bg-transparent hover:underline underline-offset-4 transition-[text-decoration-line] duration-1000 text-[#03045E] active:bg-[transparent!important] active:text-[#03045E!important] focus:bg-[transparent!important] no-underline text-[15px] decoration-[3px] "
               to="/"
-              duration={2000}
+              onClick={() =>
+                scrollTo(0)
+              }
             >
               HOME
             </Link>
           </li>
           <li>
             <Link
-              className="font-[lato] hover:bg-transparent hover:underline underline-offset-4 transition-[text-decoration-line] duration-1000 text-[#03045E] no-underline text-[15px] decoration-[3px] "
+              className="font-[lato] hover:bg-transparent hover:underline underline-offset-4 transition-[text-decoration-line] duration-1000 text-[#03045E] active:bg-[transparent!important] active:text-[#03045E!important] focus:bg-[transparent!important] no-underline text-[15px] decoration-[3px] "
               to="/"
-              duration={2000}
+              onClick={() =>
+                setTimeout(
+                  () =>
+                    document
+                      .getElementById("about")
+                      .scrollIntoView({ behavior: "smooth" }),
+                  200
+                )
+              }
             >
-              ABOUT
+              ABOUT US
             </Link>
           </li>
           <li>
             <Link
-              className="font-[lato] hover:bg-transparent hover:underline underline-offset-4 transition-[text-decoration-line] duration-1000 text-[#03045E] no-underline text-[15px] decoration-[3px] "
+              className="font-[lato] hover:bg-transparent hover:underline underline-offset-4 transition-[text-decoration-line] duration-1000 text-[#03045E] active:bg-[transparent!important] active:text-[#03045E!important] focus:bg-[transparent!important] no-underline text-[15px] decoration-[3px] "
               to="/"
-              duration={2000}
+              onClick={() =>
+                setTimeout(
+                  () =>
+                    document
+                      .getElementById("services")
+                      .scrollIntoView({ behavior: "smooth" }),
+                  200
+                )
+              }
             >
-              SERVICES
+              OUR SERVICES
             </Link>
           </li>
           <li>
-            <a
-              className="font-[lato] hover:bg-transparent hover:underline underline-offset-4 transition-[text-decoration-line] duration-1000 text-[#03045E] no-underline text-[15px] decoration-[3px] "
+            <Link
+              className="font-[lato] hover:bg-transparent hover:underline underline-offset-4 transition-[text-decoration-line] duration-1000 text-[#03045E] active:bg-[transparent!important] active:text-[#03045E!important] focus:bg-[transparent!important] no-underline text-[15px] decoration-[3px] "
               to="/"
-              duration={2000}
+              onClick={() =>
+                setTimeout(
+                  () =>
+                    document
+                      .getElementById("clients")
+                      .scrollIntoView({ behavior: "smooth" }),
+                  200
+                )
+              }
             >
               OUR CLIENTS
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              className="font-[lato] hover:bg-transparent hover:underline underline-offset-4 transition-[text-decoration-line] duration-1000 text-[#03045E] no-underline text-[15px] decoration-[3px] "
+            <Link
+              className="font-[lato] hover:bg-transparent hover:underline underline-offset-4 transition-[text-decoration-line] duration-1000 text-[#03045E] active:bg-[transparent!important] active:text-[#03045E!important] focus:bg-[transparent!important] no-underline text-[15px] decoration-[3px] "
               to="/"
-              duration={2000}
+              onClick={() =>
+                setTimeout(
+                  () =>
+                    document
+                      .getElementById("contact")
+                      .scrollIntoView({ behavior: "smooth" }),
+                  200
+                )
+              }
             >
-              GALLERY
-            </a>
-          </li>
-          <li>
-            <a
-              className="font-[lato] hover:bg-transparent hover:underline underline-offset-4 transition-[text-decoration-line] duration-1000 text-[#03045E] no-underline text-[15px] decoration-[3px] "
-              to="/"
-              duration={2000}
-            > 
               GET IN TOUCH
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

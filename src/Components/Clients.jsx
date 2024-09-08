@@ -2,7 +2,7 @@ import ClientsCard from "./ClientsCard";
 
 const Clients = () => {
   return (
-    <div className="px-24 py-16 font-[lato] bg-[#0077b6] ">
+    <div className="px-24 py-20 font-[lato] bg-[#0077b6] " id="clients">
       <h1 className="text-center text-3xl mb-10 text-[#FFF] font-bold">
         {" "}
         OUR CLIENTS

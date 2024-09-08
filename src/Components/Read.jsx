@@ -23,8 +23,8 @@ const Read = () => {
               Welcome to Silicon Overseas Ltd.
             </p>
             <p className="text-[#0077b6] text-lg leading-relaxed">
-              At Silicon International Ltd., we connect top construction talent
-              from Bangladesh with employers around the world. For companies, we
+              At Silicon Overseas Ltd., we connect top construction talent from
+              Bangladesh with employers around the world. For companies, we
               offer expertly matched manpower to meet your project needs. For
               skilled workers, we provide exciting international opportunities
               to advance your career.
@@ -124,8 +124,8 @@ const Read = () => {
                   by the Bangladesh embassy.
                 </li>
                 <li className="text-[#0077b6] text-xl">
-                  These documents should be issued in favor of Silicon
-                  International Ltd. by the principal or employer.
+                  These documents should be issued in favor of Silicon Overseas
+                  Ltd. by the principal or employer.
                 </li>
                 <li className="text-[#0077b6] text-xl">
                   The Demand Letter must specify trade category, monthly salary,
@@ -142,8 +142,8 @@ const Read = () => {
                 <li className="text-[#0077b6] text-xl">
                   The block visa, indicating the total number of workers and
                   visa categories, must be sent to the consulate of the host
-                  country in Dhaka, with a copy forwarded to Silicon
-                  International Ltd.
+                  country in Dhaka, with a copy forwarded to Silicon Overseas
+                  Ltd.
                 </li>
               </ol>
             </li>
@@ -197,7 +197,7 @@ const Read = () => {
                 </li>
                 <li className="text-[#0077b6] text-xl">
                   Final selection is either conducted by the principal/employer
-                  or by Silicon International Ltd.
+                  or by Silicon Overseas Ltd.
                 </li>
               </ol>
             </li>

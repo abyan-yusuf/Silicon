@@ -7,7 +7,7 @@ const Countries = () => {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div className="px-24 py-16 my-40 bg-[#0077b6] font-[lato] text-white ">
+    <div className="px-24 py-16 bg-[#0077b6] font-[lato] text-white " id="countries">
       <h6 className="text-lg">
         <i className="fa-solid fa-flag-usa me-2 "></i>
         Our Countries
