@@ -3,10 +3,10 @@ import React from "react";
 const Home = () => {
   return (
     <div
-      className="bg-[#0077B6] min-h-[200vh] md:min-h-[100vh] rounded-[50px] flex md:flex-row flex-col p-14 pb-0 mb-20 mx-5"
+      className="bg-[#0077B6] min-h-[115vh] md:min-h-[100vh] rounded-[50px] flex md:flex-row flex-col md:p-14 pb-0 mb-20 mx-5"
       id="home"
     >
-      <div className="md:basis-[44%] basis-full order-2 md:order-1 pr-[1%] relative">
+      <div className="md:basis-[44%] basis-full order-2 md:order-1 pr-[1%] relative mx-4">
         <img
           src="/Asset_4-100-removebg-preview.png"
           className="absolute -bottom-80 md:bottom-0 animate-real-pulse"
@@ -20,7 +20,7 @@ const Home = () => {
           className="absolute md:bottom-0 -bottom-80 md:left-20 left-10 md:h-full animate-wiggle"
         />
       </div>
-      <div className="md:basis-[54%] basis-full pl-[1%] relative md:order-2 order-1">
+      <div className="md:basis-[54%] basis-full pl-[1%] relative md:order-2 order-1 mx-10">
         <h1 className="text-white text-6xl font-[lato] font-black pt-20 leading-12 text-right leading-snug">
           Bringing Skills <br /> From Bangladesh <br /> To Global Markets
         </h1>

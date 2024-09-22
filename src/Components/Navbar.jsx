@@ -28,13 +28,13 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-end">
-        <div className="dropdown order-2">
+        <div className="dropdown order-2 relative">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <i className="fa-solid fa-bars text-3xl text-[#0077b6]"></i>
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 space-y-5 py-5 border-2 shadow-lg rounded-box z-[1] mt-3 w-52 p-2"
+            className="menu menu-sm dropdown-content bg-base-100 space-y-5 py-5 border-2 shadow-lg rounded-box z-[1] mt-3 w-52 p-2 absolute right-0"
           >
             <li>
               <Link
