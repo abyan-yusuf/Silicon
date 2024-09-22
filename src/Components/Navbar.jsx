@@ -15,8 +15,8 @@ const Navbar = () => {
     <div
       className={
         navbar
-          ? "navbar bg-base-100 md:h-20 h-26 md:px-5 fixed top-0 z-50 animate-gorgeous shadow-lg p-2 px-5"
-          : "navbar bg-base-100 md:h-20 h-26 px-5 md:px-5 p-2"
+          ? "navbar bg-base-100 md:h-20 h-26 md:px-5 fixed top-0 z-50 animate-gorgeous shadow-lg p-2 w-screen"
+          : "navbar bg-base-100 md:h-20 h-26 md:px-5 p-2"
       }
     >
       <div className="navbar-start">

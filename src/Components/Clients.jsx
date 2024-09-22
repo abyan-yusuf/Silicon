@@ -7,7 +7,7 @@ const Clients = () => {
         {" "}
         OUR CLIENTS
       </h1>
-      <div className="mt-10 flex space-x-10">
+      <div className="mt-10 flex md:flex-row flex-col space-y-10 md:space-y-0 md:space-x-10">
         <div className="basis-1/3 space-y-7 flex justify-center">
           <ClientsCard
             img={"bfco"}

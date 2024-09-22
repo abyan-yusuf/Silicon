@@ -14,9 +14,9 @@ const About = () => {
     config: {duration: 800}
   })
   return (
-    <div className="mx-20 py-28" id="about">
-      <div className="flex justify-between">
-        <div className="basis-[48%] flex justify-between">
+    <div className="md:mx-20 mx-7 py-28" id="about">
+      <div className="md:flex-row flex flex-col justify-between">
+        <div className="md:basis-[48%] basis-full flex-col md:flex-row flex justify-between md:space-y-0 space-y-5 md:order-1 order-2 mt-10 md:mt-0">
           <div className="basis-[47%] flex flex-col items-center space-y-5">
             <img
               src="/passport.jpg"
@@ -34,7 +34,9 @@ const About = () => {
               className="bg-[#90E0EF] px-2 py-8 flex font-[lato] font-black justify-center space-x-2 text-white rounded-3xl"
               data-aos="zoom-in"
             >
-              <h1 className="text-6xl"><animated.div>{number.to(n => n.toFixed(0))}</animated.div></h1>
+              <h1 className="text-6xl">
+                <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>
+              </h1>
               <h3 className="text-2xl">
                 Years of <br /> Experience
               </h3>
@@ -46,21 +48,20 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="basis-[46%] pt-3 relative">
+        <div className="md:basis-[48%] order-1 md:order-2 basis-full pt-3 relative">
           <h1 className="font-[lato] border-2 border-[#F27521] text-xl text-[#03045E] inline rounded-xl p-3 ">
             ABOUT US
           </h1>
-          <blockquote className="leading-loose font-[forum] text-[#03045E] mt-10 text-lg w-3/4">
+          <blockquote className="leading-loose font-[forum] text-[#03045E] mt-10 text-lg md:w-3/4">
             Let us take the opportunity to introduce our selves as one the most
             professional, bonfire, leading government authorized manpower agency
             in Bangladesh and have already deployed over 6000 skilled,
             semi-skilled and unskilled workers including high ranking personal
-            in different parts of the world. The objective of Silicon
-            Overseas Ltd is to introduce the latest techniques to provide
-            efficient and correct labors on construction, cleaning, and
-            municipality side. Our main aim is to create overseas job for young
-            man of allover the country by export manpower and earn foreign
-            currency.
+            in different parts of the world. The objective of Silicon Overseas
+            Ltd is to introduce the latest techniques to provide efficient and
+            correct labors on construction, cleaning, and municipality side. Our
+            main aim is to create overseas job for young man of allover the
+            country by export manpower and earn foreign currency.
           </blockquote>
           <div className="h-[3.25rem] w-32 rounded-xl absolute top-[0.5rem] left-2 border-[1px] border-[#F27521] -z-10" />
         </div>

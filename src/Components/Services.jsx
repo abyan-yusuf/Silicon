@@ -8,11 +8,11 @@ const Services = () => {
     AOS.init({ duration: 500 });
   }, []);
   return (
-    <div className="px-24 py-20 my-6 font-[lato]" id="services">
+    <div className="md:px-24 px-6 py-20 my-6 font-[lato]" id="services">
       <h1 className="text-center text-3xl mb-10 text-[#03045e]">
         OUR SERVICES
       </h1>
-      <div className="flex space-x-5 justify-between">
+      <div className="flex md:flex-row flex-col space-y-10 md:space-y-0 md:space-x-5 justify-between">
         <div
           data-aos="zoom-in"
           className="basis-[48%] border-2 rounded-badge border-[#00b4d8] p-8"
