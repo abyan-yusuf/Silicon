@@ -66,6 +66,16 @@ const Countries = () => {
             </div>
           </div>
         </div>
+        <div className="h-[450px] hover:w-96 transition-[width] w-52 duration-500 rounded-[50px] bg-[url('/Libya.jpg')] bg-cover group">
+          <div className="avatar flex justify-end mt-5 me-5">
+            <div className="w-14 border-[#0fbae8] border-4 rounded-full">
+              <img
+                src="/Libya.svg"
+                className="group-hover:animate-nonenon2 animate-nonenon3"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

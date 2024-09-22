@@ -97,7 +97,7 @@ const Contact = () => {
             width="400"
             height="300"
             className="mt-24 rounded-[50px]"
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
@@ -140,7 +140,7 @@ const Contact = () => {
             width="400"
             height="300"
             className="mt-24 rounded-[50px]"
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>

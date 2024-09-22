@@ -24,34 +24,36 @@ const App = () => {
   });
   const variants = {
     default: {
-      x: mousePosition.x-5,
-      y: mousePosition.y- 5
-    }
-  }
+      x: mousePosition.x - 5,
+      y: mousePosition.y - 5,
+    },
+  };
   return (
-    <Routes>
-      <Route
-        path="/"
-        element={
-          <div>
-            <motion.div
-              className="h-4 w-4 bg-[#F27521] rounded-full fixed top-0 left-0 z-[60] pointer-events-none"
-              variants={variants}
-              animate="default"
-            />
-            <Navbar />
-            <Home />
-            <About />
-            <Countries />
-            <Services />
-            <Clients />
-            <Contact />
-            <Footer />
-          </div>
-        }
+    <>
+      <motion.div
+        className="h-4 w-4 md:visible invisible bg-[#F27521] rounded-full fixed top-0 left-0 z-[60] pointer-events-none"
+        variants={variants}
+        animate="default"
       />
-      <Route path="/details" element={<Read />} />
-    </Routes>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div>
+              <Navbar />
+              <Home />
+              <About />
+              <Countries />
+              <Services />
+              <Clients />
+              <Contact />
+              <Footer />
+            </div>
+          }
+        />
+        <Route path="/details" element={<Read />} />
+      </Routes>
+    </>
   );
 };
 

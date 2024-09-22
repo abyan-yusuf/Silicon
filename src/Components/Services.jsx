@@ -32,7 +32,7 @@ const Services = () => {
               to="/details"
               className="btn bg-[#00b4d8] hover:bg-[#0080d6] rounded-full text-xl font-light text-white"
             >
-              Read More <i class="fa-solid fa-arrow-right"></i>
+              Read More <i className="fa-solid fa-arrow-right"></i>
             </Link>
           </div>
         </div>
@@ -56,7 +56,7 @@ const Services = () => {
                 to="/details"
                 className="btn bg-[#00b4d8] hover:bg-[#0080d6] rounded-full text-xl font-light text-white"
               >
-                Read More <i class="fa-solid fa-arrow-right"></i>
+                Read More <i className="fa-solid fa-arrow-right"></i>
               </Link>
             </div>
           </div>

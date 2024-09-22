@@ -2,15 +2,15 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="px-32 space-x-20 py-5 flex justify-between">
-      <div className="basis-1/2 flex justify-center flex-col items-end">
-        <a className="btn btn-ghost text-xl h-20 hover:bg-transparent p-0">
-          <img src="/Asset 2-100.png" className="h-20" />
-          <h2 className="font-[lato] text-3xl font-semibold text-[#03045E]">
+    <div className="md:px-32 px-5 space-x-0 md:space-x-20 py-10 md:py-5 flex justify-between md:flex-row flex-col items-center">
+      <div className="md:basis-1/2 basis-[100%] flex justify-center flex-col items-center md:items-end md:mb-0 mb-20">
+        <a className="btn btn-ghost text-xl h-20 hover:bg-transparent p-0 me-auto ms-auto">
+          <img src="/Asset 2-100.png" className="md:h-20 h-12 inline-block" />
+          <h2 className="font-[lato] text-lg md:text-3xl font-semibold text-[#03045E] inline-block">
             SILICON OVERSEAS LTD.
           </h2>
         </a>
-        <p className="text-end text-[#0077b6] text-2xl font-medium my-5 ">
+        <p className="text-center md:text-end text-[#0077b6] text-2xl font-medium my-5">
           Bringing Skills From <br /> Bangladesh To Global Markets For <br />{" "}
           More Than A Decade
         </p>
@@ -22,15 +22,13 @@ const Footer = () => {
         </a>
       </div>
       <div className="basis-1/2 relative">
-        <div className="w-[75vh] rounded-full bg-[#90e0ef] h-[75vh]"></div>
-        <div className="basis-1/2 absolute top-28 left-20 space-y-3 flex flex-col">
+        <div className="md:w-[75vh] rounded-full bg-[#90e0ef] md:h-[75vh] h-[90vw] w-[90vw] me-auto ms-auto"></div>
+        <div className="basis-1/2 absolute top-20 md:top-28 left-20 space-y-3 flex flex-col">
           <h2 className="text-2xl font-semibold text-[#0077b6] ">MENU</h2>
           <Link
             className="text-xl text-[#0077b6] hover:bg-transparent"
             to="/"
-            onClick={() =>
-              scrollTo(0)
-            }
+            onClick={() => scrollTo(0)}
           >
             HOME
           </Link>
@@ -95,7 +93,7 @@ const Footer = () => {
             GET IN TOUCH
           </Link>
         </div>
-        <div className="basis-1/2 absolute top-28 right-36 space-y-4">
+        <div className="basis-1/2 absolute top-20 md:top-28 md:right-36 right-16 space-y-4">
           <h2 className="text-2xl font-semibold text-[#0077b6] ">FIND US</h2>
           <h2 className="text-5xl text-[#0077b6] ">
             <i class="fa-brands fa-square-facebook"></i>
