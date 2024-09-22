@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div
-      className="bg-[#0077B6] min-h-[115vh] md:min-h-[100vh] rounded-[50px] flex md:flex-row flex-col md:p-14 pb-0 mb-20 mx-5"
+      className="bg-[#0077B6] min-h-[150vh] md:min-h-[100vh] rounded-[50px] flex md:flex-row flex-col md:p-14 pb-0 mb-20 mx-5"
       id="home"
     >
       <div className="md:basis-[44%] basis-full order-2 md:order-1 pr-[1%] relative mx-4">
