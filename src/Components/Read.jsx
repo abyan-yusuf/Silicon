@@ -10,8 +10,8 @@ const Read = () => {
     <div className="font-[lato]">
       <Navbar />
       <div className="border-8 py-12 px-8 mx-5 border-[#90e0ef] rounded-[50px]">
-        <section className="flex justify-between">
-          <div className="basis-[47%]">
+        <section className="flex md:flex-row flex-col space-y-10 md:space-y-0 justify-between">
+          <div className="md:basis-[47%] basis-full">
             <h2
               className="
               text-[#0077b6] text-2xl font-semibold"
@@ -35,26 +35,26 @@ const Read = () => {
               Discover how we can support your goals today.
             </p>
           </div>
-          <div className="basis-[47%]">
-            <div className="flex justify-end">
+          <div className="md:basis-[47%] basis-full">
+            <div className="flex justify-end space-x-5">
               <div>
                 <img
                   src="/airplane-6867678_1280.jpg"
-                  className="rounded-3xl h-72"
+                  className="rounded-3xl md:h-72 h-60"
                 />
                 <img
                   src="/fum-ari-4kz2hF8-unsplash.jpg"
-                  className="rounded-3xl h-36 mt-5"
+                  className="rounded-3xl md:h-36 h-32 mt-5"
                 />
               </div>
               <div className="flex flex-col items-baseline">
                 <img
                   src="/woman-3261425_960_720.jpg"
-                  className="rounded-3xl h-36"
+                  className="rounded-3xl md:h-36 h-32"
                 />
                 <img
                   src="/Asset 8-100.jpg"
-                  className="rounded-3xl h-72 mt-5 ms-auto"
+                  className="rounded-3xl md:h-72 h-60 mt-5 ms-auto"
                 />
               </div>
             </div>
@@ -86,8 +86,8 @@ const Read = () => {
             1. Visa Documentation Requirements
           </h1>
           <ul>
-            <li className="flex">
-              <div className="basis-1/2">
+            <li className="flex md:flex-row flex-col md:h-auto h-[450px]">
+              <div className="md:basis-1/2 basis-full">
                 <h2 className="font-semibold text-xl text-[#0077b6]">
                   <i class="fa-solid fa-circle me-2"></i>Essential Documents:
                 </h2>
@@ -99,16 +99,16 @@ const Read = () => {
                 </ol>
               </div>
               <div
-                className="basis-1/2 relative flex justify-center
+                className="md:basis-1/2 basis-full relative flex justify-center
               "
               >
                 <img
                   src="/Read more 2.jpg"
-                  className="h-44 rounded-2xl absolute left-0 top-0"
+                  className="h-44 rounded-2xl absolute left-10 top-0"
                 />
                 <img
                   src="/Read more 1.jpg"
-                  className="h-48 rounded-2xl absolute right-20 bottom-0 -z-10"
+                  className="h-48 rounded-2xl absolute right-0 bottom-0 -z-10"
                 />
               </div>
             </li>
@@ -167,8 +167,8 @@ const Read = () => {
                 </li>
               </ol>
             </li>
-            <li className="mt-10 flex">
-              <div className="basis-1/2">
+            <li className="mt-10 flex md:flex-row flex-col md:h-auto h-[500px]">
+              <div className="md:basis-1/2 basis-full">
                 <h2 className="font-semibold text-xl text-[#0077b6]">
                   <i class="fa-solid fa-circle me-2"></i>Candidate Sourcing:
                 </h2>
@@ -181,10 +181,10 @@ const Read = () => {
                   </li>
                 </ol>
               </div>
-              <div className="basis-1/2 flex justify-center relative">
+              <div className="md:basis-1/2 basis-full flex justify-center relative">
                 <img src="/Read more 3.jpg" className="h-48 rounded-2xl" />
               </div>
-              <div className="h-48 w-[288px] border-2 rounded-2xl border-[#0077b6] absolute right-64 mt-8"></div>
+              <div className="h-48 w-[288px] border-2 rounded-2xl border-[#0077b6] absolute left-10 md:left-auto md:right-64 mt-56 md:mt-8"></div>
             </li>
             <li className="mt-10">
               <h2 className="font-semibold text-xl text-[#0077b6]">
@@ -206,7 +206,7 @@ const Read = () => {
             3. Recruitment Process & Conditions
           </h1>
           <ul>
-            <li className="flex">
+            <li className="flex md:flex-row space-y-10 md:space-y-0 flex-col">
               <div className="basis-3/5">
                 <h2 className="font-semibold text-xl text-[#0077b6]">
                   <i class="fa-solid fa-circle me-2"></i>Requirements:
@@ -266,6 +266,34 @@ const Read = () => {
                 </li>
               </ol>
             </li>
+          </ul>{" "}
+          <h1 className="text-[#0077b6] text-2xl font-semibold mt-10 mb-5">
+            4. Trade Test & Training
+          </h1>
+          <ul>
+            <li className="mt-10">
+              <h2 className="font-semibold text-xl text-[#0077b6]">
+                <i class="fa-solid fa-circle me-2"></i>Trade Test:
+              </h2>
+              <ol type="i" className="ms-10 list-[lower-roman] mt-3">
+                <li className="text-[#0077b6] text-xl">
+                  Includes theoretical and practical assessments of trade
+                  knowledge, tool use, equipment identification, and trade
+                  proficiency.
+                </li>
+              </ol>
+            </li>
+            <li className="mt-10">
+              <h2 className="font-semibold text-xl text-[#0077b6]">
+                <i class="fa-solid fa-circle me-2"></i>Training:
+              </h2>
+              <ol type="i" className="ms-10 list-[lower-roman] mt-3">
+                <li className="text-[#0077b6] text-xl">
+                  Arrange training at local centers if required, to ensure
+                  candidates are well-prepared
+                </li>
+              </ol>
+            </li>
           </ul>
           <h1 className="text-[#0077b6] text-2xl font-semibold mt-10 mb-5">
             5. Medical Check-Up
@@ -283,7 +311,7 @@ const Read = () => {
                 </li>
               </ol>
             </li>
-            <li className="mt-10 flex">
+            <li className="mt-10 flex md:flex-row flex-col">
               <div className="basis-1/2">
                 <h2 className="font-semibold text-xl text-[#0077b6]">
                   <i class="fa-solid fa-circle me-2"></i>Certification:
@@ -297,14 +325,14 @@ const Read = () => {
               </div>
               <div className="basis-1/2 flex justify-center relative">
                 <img src="/Read more 4.jpg" className="h-48 rounded-2xl" />
-                <div className="h-48 w-[288px] border-2 rounded-2xl border-[#0077b6] absolute right-52 mt-8"></div>{" "}
+                <div className="h-48 w-[288px] border-2 rounded-2xl border-[#0077b6] absolute md:right-52 right-6 mt-8"></div>{" "}
               </div>
             </li>
           </ul>
           <h1 className="text-[#0077b6] text-2xl font-semibold mt-10 mb-5">
             6. Visa Endorsement
           </h1>
-          <div className="flex">
+          <div className="flex md:flex-row flex-col space-y-10 md:space-y-0">
             <ul className="basis-1/2">
               <li className="mt-10">
                 <h2 className="font-semibold text-xl text-[#0077b6]">
@@ -331,9 +359,9 @@ const Read = () => {
               </li>
             </ul>
             <div className="basis-1/2 flex justify-center relative">
-              <div className="h-96 w-52 rounded-2xl bg-[url('Read more 8.jpg')] bg-cover"></div>
+              <img className="h-96 w-52 rounded-2xl" src="/Read more 8.jpg" />
 
-              <div className="h-96 w-52 border-2 rounded-2xl border-[#0077b6] absolute right-60 mt-8"></div>
+              <div className="h-96 w-52 border-2 rounded-2xl border-[#0077b6] absolute right-20 md:right-60 mt-8"></div>
             </div>
           </div>
           <h1 className="text-[#0077b6] text-2xl font-semibold mt-10 mb-5">
@@ -377,7 +405,7 @@ const Read = () => {
         </section>
       </div>
       <div className="mt-10 bg-[#0077b6] text-white px-16 py-12 flex">
-        <div className="basis-3/5">
+        <div className="md:basis-3/5 basis-full">
           <h1 className="text-2xl font-semibold">1. Demand Letter</h1>
           <p className="mt-5">
             Employers should contact Silicon Overseas Ltd. with a Demand Letter
@@ -468,7 +496,7 @@ const Read = () => {
             An Agency Agreement with Silicon Overseas Ltd. can be established.
           </p>
         </div>
-        <div className="basis-2/5 flex flex-col items-center space-y-10">
+        <div className="md:basis-2/5 basis-0 invisible md:visible flex flex-col items-center space-y-10">
           <img src="/checklist-154274_1280.png" className="w-64" />
           <img src="/approved-1966719_1280.png" className="w-64" />
           <img src="/document-2282150_1280.png" className="w-64" />
